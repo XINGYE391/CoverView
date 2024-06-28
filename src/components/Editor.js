@@ -17,15 +17,15 @@ import theme7 from '../assets/images/theme7.webp'
 import fixitIcon from '../assets/icons/fixit.svg'
 
 const defaultSettings = {
-  title: 'A begineers guide to frontend development',
+  title: 'Please enter your blog title here !',
   bgColor: '#949ee5',
   pattern: '',
-  author: process.env.REACT_APP_AUTHOR || 'Lruihao',
+  author: process.env.REACT_APP_AUTHOR || "XINGYE's Blog",
   icon: { label: 'reactjs', value: 'react', opts: ['original', 'original-wordmark'] },
   iconStyle: 'original',
   iconStyleOptions: ['original', 'original-wordmark'],
   devIconOptions: [],
-  font: 'font-Virgil',
+  font: 'font-Poppins',
   theme: 'background',
   customIcon: '',
   platform: 'hashnode',
